@@ -5,6 +5,7 @@
     <AppEvent />
     <AppConditional />
     <AppIterators/>
+    <AppTwoWayBounding/>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import AppNavbar from './components/AppNavbar.vue';
 import AppEvent from './components/AppEvent.vue';
 import AppConditional from './components/AppConditional.vue';
 import AppIterators from './components/AppIterators.vue';
+import AppTwoWayBounding from './components/AppTwoWayBinding.vue';
 
 
 export default {
@@ -23,7 +25,8 @@ export default {
     AppNavbar,
     AppEvent,
     AppConditional,
-    AppIterators
+    AppIterators,
+    AppTwoWayBounding
   }
 }
 </script>
