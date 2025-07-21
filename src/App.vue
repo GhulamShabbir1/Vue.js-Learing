@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <router-view></router-view>
     <HelloWorld msg="Welcome to Your Vue.js App" />
     <AppNavbar msg="{this is prop add by me}" />
     <AppEvent />
