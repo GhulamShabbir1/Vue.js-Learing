@@ -6,6 +6,7 @@
     <AppConditional />
     <AppIterators/>
     <AppTwoWayBounding/>
+    <AppBind/>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import AppEvent from './components/AppEvent.vue';
 import AppConditional from './components/AppConditional.vue';
 import AppIterators from './components/AppIterators.vue';
 import AppTwoWayBounding from './components/AppTwoWayBinding.vue';
+import AppBind from './components/AppBind.vue';
 
 
 export default {
@@ -26,18 +28,9 @@ export default {
     AppEvent,
     AppConditional,
     AppIterators,
-    AppTwoWayBounding
+    AppTwoWayBounding,
+    AppBind
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
