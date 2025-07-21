@@ -4,6 +4,7 @@
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <AppNavbar msg="this Add by me"/>
     <AppEvent/>
+    <AppConditional/>
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import HelloWorld from './components/HelloWorld.vue'
 import AppNavbar from './components/AppNavbar.vue';
 import AppEvent from './components/AppEvent.vue';
+import AppConditional from './components/AppConditional.vue';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     AppNavbar,
-    AppEvent
+    AppEvent,
+    AppConditional
   }
 }
 </script>
