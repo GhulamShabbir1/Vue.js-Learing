@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <AppNavbar msg="this Add by me"/>
+    <AppNavbar msg="{this is prop add by me}"/>
     <AppEvent/>
     <AppConditional/>
   </div>
