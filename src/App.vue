@@ -1,9 +1,10 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <AppNavbar msg="{this is prop add by me}"/>
-    <AppEvent/>
-    <AppConditional/>
+    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <AppNavbar msg="{this is prop add by me}" />
+    <AppEvent />
+    <AppConditional />
+    <AppIterators/>
   </div>
 </template>
 
@@ -12,6 +13,8 @@ import HelloWorld from './components/HelloWorld.vue'
 import AppNavbar from './components/AppNavbar.vue';
 import AppEvent from './components/AppEvent.vue';
 import AppConditional from './components/AppConditional.vue';
+import AppIterators from './components/AppIterators.vue';
+
 
 export default {
   name: 'App',
@@ -19,7 +22,8 @@ export default {
     HelloWorld,
     AppNavbar,
     AppEvent,
-    AppConditional
+    AppConditional,
+    AppIterators
   }
 }
 </script>
