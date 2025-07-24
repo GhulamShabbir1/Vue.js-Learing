@@ -8,6 +8,8 @@
     <AppIterators/>
     <AppTwoWayBounding/>
     <AppBind/>
+    <!-- <AppParents msg="Rest in Peace Props"/> -->
+    <AppParents v-bind:msg="name"/>
   </div>
 </template>
 
@@ -19,6 +21,8 @@ import AppConditional from './components/AppConditional.vue';
 import AppIterators from './components/AppIterators.vue';
 import AppTwoWayBounding from './components/AppTwoWayBinding.vue';
 import AppBind from './components/AppBind.vue';
+ import AppParents from './components/PropsAndEmits/AppParents.vue';
+
 
 
 export default {
@@ -30,7 +34,13 @@ export default {
     AppConditional,
     AppIterators,
     AppTwoWayBounding,
-    AppBind
+    AppBind,
+    AppParents
+  },
+  data(){
+    return {
+      name:" Ghulam Shabir",
+    }
   }
 }
 </script>

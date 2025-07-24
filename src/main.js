@@ -7,23 +7,23 @@ import AppAbout from './components/pages/AppAbout.vue'
 import VueRouter from 'vue-router'
 Vue.use(vueRoutes)
 
-const routes=[
+const routes = [
   {
-    path:"/home",
-    component:AppHome
+    path: "/home",
+    component: AppHome
   },
   {
-    path:"/about",
-    component:AppAbout
+    path: "/about",
+    component: AppAbout
   }
 ]
 
-const router=new VueRouter({
+const router = new VueRouter({
   routes
 })
 Vue.config.productionTip = false
 
 new Vue({
-  router:router,
+  router: router,
   render: h => h(App),
 }).$mount('#app')
